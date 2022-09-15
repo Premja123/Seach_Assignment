@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import MOCK from './MOCK_DATA.json';
+import MOCK from './MOCKDATA.json';
 import {debounce} from 'lodash';
 // import Highlighter from 'react-highlight-words';
 
