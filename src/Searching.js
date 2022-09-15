@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import MOCK_DATA from './MOCK_DATA.json';
+import MOCK from './MOCK_DATA.json';
 import {debounce} from 'lodash';
 // import Highlighter from 'react-highlight-words';
 
@@ -30,7 +30,7 @@ match.fontcolor("red").bold()
       />
 
 
-  {MOCK_DATA.filter((val)=>{
+  {MOCK.filter((val)=>{
    if(val.name.toLowerCase().includes(searchItem.toLowerCase()))
         {
          return val;
